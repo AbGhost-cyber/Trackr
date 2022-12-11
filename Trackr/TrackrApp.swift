@@ -12,7 +12,7 @@ struct TrackrApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView{
-                ContentView(of: .example)
+                ContentView(location: Locations().primary)
             }
         }
     }

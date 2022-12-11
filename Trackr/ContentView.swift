@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     let location:Location
     
-    init(of location: Location) {
+    init(location: Location) {
         self.location = location
     }
     var body: some View {
@@ -42,7 +42,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView{
-            ContentView(of: .example)
+            ContentView(location: Locations().primary)
         }
     }
 }
