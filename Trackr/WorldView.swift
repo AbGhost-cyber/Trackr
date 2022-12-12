@@ -9,6 +9,7 @@ import SwiftUI
 import MapKit
 
 struct WorldView: View {
+    @EnvironmentObject var locations:Locations
     //starting region
     @State var region = MKCoordinateRegion(
         center:CLLocationCoordinate2D(latitude: 51.507222, longitude: -0.1275),
@@ -17,7 +18,19 @@ struct WorldView: View {
         )
     )
     var body: some View {
-        Map(coordinateRegion: $region)
+        Map(coordinateRegion: $region,annotationItems: locations.places){location in
+            MapAnnotation(coordinate: CLLocationCoordinate2D(
+                latitude: location.latitude,
+                longitude: location.longitude)) {
+                    NavigationLink(destination: ContentView(location: location)){
+                        Image(location.country)
+                            .resizable()
+                            .cornerRadius(10)
+                            .frame(width: 80,height: 40)
+                            .shadow(radius: 3)
+                    }
+            }
+        }
             .navigationTitle("Locations")
     }
 }

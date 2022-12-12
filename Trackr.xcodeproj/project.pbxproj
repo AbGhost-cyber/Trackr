@@ -19,6 +19,8 @@
 		043FC0A92945A712002FFF3D /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FC0A82945A712002FFF3D /* Location.swift */; };
 		043FC0AB2945D636002FFF3D /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FC0AA2945D635002FFF3D /* Locations.swift */; };
 		043FC0AD2945E50F002FFF3D /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FC0AC2945E50F002FFF3D /* WorldView.swift */; };
+		043FC0AF29473322002FFF3D /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FC0AE29473322002FFF3D /* Tip.swift */; };
+		043FC0B1294733D8002FFF3D /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FC0B0294733D8002FFF3D /* TipsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		043FC0A82945A712002FFF3D /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		043FC0AA2945D635002FFF3D /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 		043FC0AC2945E50F002FFF3D /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		043FC0AE29473322002FFF3D /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		043FC0B0294733D8002FFF3D /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 			children = (
 				043FC07A294594B2002FFF3D /* TrackrApp.swift */,
 				043FC0AC2945E50F002FFF3D /* WorldView.swift */,
+				043FC0AE29473322002FFF3D /* Tip.swift */,
+				043FC0B0294733D8002FFF3D /* TipsView.swift */,
 				043FC07C294594B2002FFF3D /* ContentView.swift */,
 				043FC0AA2945D635002FFF3D /* Locations.swift */,
 				043FC0A82945A712002FFF3D /* Location.swift */,
@@ -277,6 +283,8 @@
 				043FC07D294594B2002FFF3D /* ContentView.swift in Sources */,
 				043FC0A92945A712002FFF3D /* Location.swift in Sources */,
 				043FC0AD2945E50F002FFF3D /* WorldView.swift in Sources */,
+				043FC0AF29473322002FFF3D /* Tip.swift in Sources */,
+				043FC0B1294733D8002FFF3D /* TipsView.swift in Sources */,
 				043FC0AB2945D636002FFF3D /* Locations.swift in Sources */,
 				043FC07B294594B2002FFF3D /* TrackrApp.swift in Sources */,
 			);
